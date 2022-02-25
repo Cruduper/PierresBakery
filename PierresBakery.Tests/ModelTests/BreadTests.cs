@@ -24,12 +24,12 @@ namespace PierresBakery.Tests
       Assert.AreEqual(5, newBread.Price);
     }
 
-    // public void BreadConstructor_SetsPriceOfBreadTo5UsingOverloadedBreadConstructor_5()
-    // {
-    //   // any necessary logic to prep for test; instantiating new classes, etc.
-    //   Bread newBread = new Bread(5);
-    //   Assert.AreEqual(6, newBread.Price);
-    // }
+    [TestMethod]
+    public void BreadConstructor_SetsPriceOfBreadTo5UsingOverloadedBreadConstructor_5()
+    {
+      Bread newBread = new Bread(5);
+      Assert.AreEqual(5, newBread.Price);
+    }
 
 
 
