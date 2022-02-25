@@ -28,8 +28,5 @@ namespace PierresBakery.Models
       }
       return totalPrice;
     }
-
-
   }
-
 }

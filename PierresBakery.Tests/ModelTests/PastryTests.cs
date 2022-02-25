@@ -1,6 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PierresBakery.Models;
-using System;
 using System.Collections.Generic;
 
 namespace PierresBakery.Tests
@@ -52,5 +51,4 @@ namespace PierresBakery.Tests
       Assert.AreEqual(10, Pastry.PastryDiscounter(pastes));
     }
   }
-
 }
