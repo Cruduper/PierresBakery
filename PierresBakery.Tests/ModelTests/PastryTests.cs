@@ -23,6 +23,13 @@ namespace PierresBakery.Tests
       newPastry.Price = 5;
       Assert.AreEqual(5, newPastry.Price);
     }
+
+    [TestMethod]
+    public void PastryConstructor_SetsPriceOfPastryTo2UsingOverloadedPastryConstructor_2()
+    {
+      Pastry newPastry = new Pastry(2);
+      Assert.AreEqual(6, newPastry.Price);
+    }
     // [TestMethod]
     // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
     // {
