@@ -28,7 +28,7 @@ namespace PierresBakery.Tests
     public void PastryConstructor_SetsPriceOfPastryTo2UsingOverloadedPastryConstructor_2()
     {
       Pastry newPastry = new Pastry(2);
-      Assert.AreEqual(6, newPastry.Price);
+      Assert.AreEqual(2, newPastry.Price);
     }
     // [TestMethod]
     // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
