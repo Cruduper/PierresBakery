@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 
 namespace PierresBakery.Models
@@ -11,6 +12,11 @@ namespace PierresBakery.Models
     public Bread (int price)
     {
       Price = price;
+    }
+
+    public static int BreadDiscounter( List<Bread> loaves)
+    {
+      return 0;
     }
 
 

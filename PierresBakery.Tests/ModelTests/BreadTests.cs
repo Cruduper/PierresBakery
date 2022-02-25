@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PierresBakery.Models;
 using System;
+using System.Collections.Generic;
 
 
 namespace PierresBakery.Tests
@@ -31,6 +32,12 @@ namespace PierresBakery.Tests
       Assert.AreEqual(5, newBread.Price);
     }
 
+    [TestMethod]
+    public void BreadDiscounter_ReturnsAPriceForAListofBreadsWithOneElement_5()
+    {
+      List<Bread> loaves = new List<Bread>{ new Bread(5) };
+      Assert.AreEqual(6, loaves[0].Price);
+    }
 
 
     // [TestMethod]
