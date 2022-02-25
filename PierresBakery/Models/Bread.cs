@@ -14,9 +14,19 @@ namespace PierresBakery.Models
       Price = price;
     }
 
-    public static int BreadDiscounter( List<Bread> loaves)
+    public static int BreadDiscounter( List<Bread> loafMountain)
     {
-      return 0;
+      int breadInstance = 1;
+      int totalPrice = 0;
+      foreach (Bread loaf in loafMountain)
+      {
+        if( breadInstance % 3 == 0 )
+          loaf.Price = 0;
+
+        totalPrice += loaf.Price;
+        breadInstance++;
+      }
+      return totalPrice;
     }
 
 
