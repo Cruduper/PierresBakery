@@ -5,6 +5,10 @@ namespace PierresBakery.Models
 {
   public class Bread
   {
-    //private int _price = 5;
+    public int Price; //{ get; set; }
+
+
+
   }
+
 }
