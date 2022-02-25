@@ -49,7 +49,7 @@ namespace PierresBakery.Tests
      public void PastryDiscounter_ReturnsAPriceForAListofPastrysWithSixElements_10()
     {
       List<Pastry> pastes = new List<Pastry>{ new Pastry(2), new Pastry(2), new Pastry(2), new Pastry(2), new Pastry(2), new Pastry(2)};
-      Assert.AreEqual(11, Pastry.PastryDiscounter(pastes));
+      Assert.AreEqual(10, Pastry.PastryDiscounter(pastes));
     }
     // [TestMethod]
     // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
