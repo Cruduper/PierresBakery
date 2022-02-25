@@ -38,10 +38,11 @@ namespace PierresBakery.Tests
       Assert.AreEqual(2, Pastry.PastryDiscounter(pastes));
     }
 
-    //  public void PastryDiscounter_ReturnsAPriceForAListofPastrysWith2Elements_35()
+    // [TestMethod]
+    //  public void PastryDiscounter_ReturnsAPriceForAListofPastrysWithThreeElements_5()
     // {
-    //   List<Pastry> loaves = new List<Pastry>{ new Pastry(2), new Pastry(2)};
-    //   Assert.AreEqual(3, Pastry.PastryDiscounter(loaves));
+    //   List<Pastry> loaves = new List<Pastry>{ new Pastry(2), new Pastry(2), new Pastry(2)};
+    //   Assert.AreEqual(5, Pastry.PastryDiscounter(loaves));
     // }
     // [TestMethod]
     // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
