@@ -35,8 +35,14 @@ namespace PierresBakery.Tests
     public void PastryDiscounter_ReturnsAPriceForAListofPastrysWithOneElement_2()
     {
       List<Pastry> pastes = new List<Pastry>{ new Pastry(2) };
-      Assert.AreEqual(3, pastes[0].Price);
+      Assert.AreEqual(2, Pastry.PastryDiscounter(pastes));
     }
+
+    //  public void PastryDiscounter_ReturnsAPriceForAListofPastrysWith2Elements_35()
+    // {
+    //   List<Pastry> loaves = new List<Pastry>{ new Pastry(2), new Pastry(2)};
+    //   Assert.AreEqual(3, Pastry.PastryDiscounter(loaves));
+    // }
     // [TestMethod]
     // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
     // {
