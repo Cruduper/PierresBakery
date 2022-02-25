@@ -12,7 +12,7 @@ namespace PierresBakery.Tests
     public void BreadConstructor_CreatesInstanceOfItemBread_BreadInstance()
     {
       Bread newBread= new Bread();
-      Assert.AreEqual(typeof(int), newBread.GetType());
+      Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
   }
 }
