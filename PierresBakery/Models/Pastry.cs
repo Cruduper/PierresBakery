@@ -15,5 +15,10 @@ namespace PierresBakery.Models
     }
 
     public Pastry() { } //overloaded Pastry constructor
+
+    public static int PastryDiscounter( List<Pastry> pastryMountain )
+    {
+      return 2;
+    }
   }
 }
