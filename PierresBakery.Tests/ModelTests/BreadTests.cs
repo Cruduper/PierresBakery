@@ -43,7 +43,7 @@ namespace PierresBakery.Tests
     public void BreadDiscounter_ReturnsAPriceForAListofBreadsWithTenElements_35()
     {
       List<Bread> loaves = new List<Bread>{ new Bread(5), new Bread(5), new Bread(5), new Bread(5), new Bread(5), new Bread(5), new Bread(5), new Bread(5), new Bread(5), new Bread(5) };
-      Assert.AreEqual(5, Bread.BreadDiscounter(loaves));
+      Assert.AreEqual(35, Bread.BreadDiscounter(loaves));
     }
 
     
