@@ -36,7 +36,7 @@ namespace PierresBakery.Tests
     public void BreadDiscounter_ReturnsAPriceForAListofBreadsWithOneElement_5()
     {
       List<Bread> loaves = new List<Bread>{ new Bread(5) };
-      Assert.AreEqual(6, loaves[0].Price);
+      Assert.AreEqual(5, loaves[0].Price);
     }
 
 
