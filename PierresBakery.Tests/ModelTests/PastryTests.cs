@@ -15,7 +15,14 @@ namespace PierresBakery.Tests
       Assert.AreEqual(typeof(Pastry), newPastry.GetType());
     }
 
-
+    [TestMethod]
+    public void PastryDotSetPrice_SetsPriceOfPastryTo5_5()
+    {
+      // any necessary logic to prep for test; instantiating new classes, etc.
+      Pastry newPastry = new Pastry();
+      newPastry.Price = 5;
+      Assert.AreEqual(6, newPastry.Price);
+    }
     // [TestMethod]
     // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
     // {
