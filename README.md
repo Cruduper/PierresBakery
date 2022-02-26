@@ -20,9 +20,16 @@ _This was built as the first C# project in my coding bootcamp. It explores using
 
 * _clone git repository to a local machine_
 * _navigate to root folder of the project using command line_
-* _use the '$ npm install' command to install necessary packages_
-* _type in '$ npm run build' to build project_
-* _type in '$ npm run start' command to open project in browser and start live server_
+
+#### _To Run Tests_
+* _navigate to testing folder (PierresBakery.Tests for this repo) using command line_
+* _type in 'dotnet restore' command_
+* _type in 'dotnet test' while still in PierresBakery.Tests folder to run tests_
+#### _To Run Program_
+* _navigate to folder with Program.cs file (PierresBakery in this repo) using command line_
+* _type in 'dotnet build' command_
+* _type in 'dotnet run' command_
+* _get awesome_
 
 ## Known Bugs
 
