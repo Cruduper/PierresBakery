@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using PierresBakery.Models;
 
-
 namespace PierresBakery
 {
   public class Program
@@ -23,7 +22,6 @@ namespace PierresBakery
       cartTotal += Pastry.PastryDiscounter( PastryBaker(numPastries) );
 
       Console.Write("\n\nYour (dishonest) total for the amount you said you wanted (lies) is: $" + cartTotal + "\n\n");
-      
     }
 
     public static List<Bread> BreadBaker( int nBreads)
@@ -49,6 +47,5 @@ namespace PierresBakery
 
       return PastryList;
     }
-
   }
 }
